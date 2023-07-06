@@ -15,7 +15,7 @@ export const API_URL = "http://localhost:8081/";
 
 function App() {
   const [grayscaleMode, setGrayscaleMode] = useState(false);
-
+  const err = "Error";
   const handleToggleGrayscale = () => {
     setGrayscaleMode(!grayscaleMode);
   };
