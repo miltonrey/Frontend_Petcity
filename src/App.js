@@ -10,7 +10,7 @@ import RegistroUser from "./components/registroUser";
 import Navbarpg from "./layouts/navbar";
 import "./App.css";
 
-export const LOCAL_URL = "http://localhost:8081/";
+export const LOCAL_URL = "https://petcitybackend.onrender.com/";
 export const API_URL = "http://localhost:8081/";
 
 function App() {
